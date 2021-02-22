@@ -41,3 +41,14 @@ console.log(`${userName3} is Admin: ${userIsAdmin(userName3)}`);
 */
   
 }
+
+
+{
+/* Rest Parameter with Reduce */
+const add = function (...numbers) {
+  return numbers.reduce((result, currentValue) => {
+    return result + currentValue;
+  });
+};
+console.log(add(5, 5, 5, 5));
+}
