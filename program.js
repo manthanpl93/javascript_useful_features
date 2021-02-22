@@ -16,7 +16,8 @@
 
 
 {
-  /* Array some() Method  */
+  /* Array some() Method:
+  If it finds an array element where the function returns a true value, some() returns true (and does not check the remaining values) Otherwise it returns false */
   
   const users = [
   { username: "manthan", role: "admin" },
